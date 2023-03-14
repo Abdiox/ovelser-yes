@@ -5,7 +5,7 @@ const firstName = "Abdirahman";
 const middleName = "Mohamed";
 const lastName = "Roble";
 
-console.log(firstName, middleName, lastName);
+console.log(lastName, firstName, middleName);
 
 //GAMMEL FUNKTION
 // const name = "Abdirahman Mohamed Roble";
