@@ -1,11 +1,11 @@
 "use strict";
 
-function writeFullName(fullname) {}
-const firstName = "Abdirahman";
-const middleName = "Mohamed";
-const lastName = "Roble";
-
-console.log(lastName, firstName, middleName);
+function writeFullName(fullName) {
+  const firstName = "Abdirahman";
+  const middleName = "Mohamed";
+  const lastName = "Roble";
+}
+console.log(fullName);
 
 //GAMMEL FUNKTION
 // const name = "Abdirahman Mohamed Roble";

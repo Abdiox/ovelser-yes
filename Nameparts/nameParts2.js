@@ -1,5 +1,4 @@
 "use strict";
-"use strict";
 
 function writeNameParts(fullname) {}
 const firstName = "Abdirahman";
