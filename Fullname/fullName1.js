@@ -1,11 +1,31 @@
 "use strict";
-
-function writeFullName(fullName) {
-  const firstName = "Abdirahman";
-  const middleName = "Mohamed";
-  const lastName = "Roble";
+//1
+function writeFullName(lastName, firstName, middleName) {
+  lastName + " " + firstName + " " + middleName;
 }
-console.log(fullName);
+console.log(writeFullName("Abdirahman", "Mohamed", "Roble"));
+//2
+function writeFullName(lastName, firstName, middleName) {
+  return lastName + " " + firstName + " " + middleName;
+}
+console.log(writeFullName("Lind", "Peter", "Heronimous"));
+
+//3 - Hvis man ikke skriver et middle ind kommer det ud som undefined.
+function writeFullName(lastName, firstName, middleName) {
+  return lastName + " " + firstName + " " + middleName;
+}
+console.log(writeFullName("Lind", "Peter"));
+
+//udvidelse
+function writeFullName(lastName, firstName, middleName) {
+  if (middleName) {
+    return lastName + " " + firstName + " " + middleName;
+  } else {
+    return lastName + " " + firstName;
+  }
+}
+console.log(writeFullName("Abdirahman", "Roble"));
+console.log(writeFullName("Abdirahman", "Roble", null));
 
 //GAMMEL FUNKTION
 // const name = "Abdirahman Mohamed Roble";

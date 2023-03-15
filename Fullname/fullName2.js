@@ -1,11 +1,18 @@
 "use strict";
 
-function getFullName(fullname) {}
-const firstName = "Abdirahman";
-const middleName = "Mohamed";
-const lastName = "Roble";
+/* function writeFullName(lastName, firstName, middleName) {
+  lastName + " " + firstName + " " + middleName;
+} */
 
-return firstName, middleName, lastName;
+function getFullName(lastName, firstName, middleName) {
+  return lastName + " " + firstName + " " + middleName;
+}
+
+function writeFullName(lastName, firstName, middleName) {
+  console.log(lastName, firstName, middleName);
+}
+
+writeFullName("g", "g", "g");
 
 // function greeting(firstName) {
 //   return `Hello ${firstName}`;
